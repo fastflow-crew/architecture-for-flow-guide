@@ -16,51 +16,47 @@ Important:
 In my experience, this approach fits the best with typical traditional organisations (for example public sector)
 It's largely based on chapter 9 of Architecture for Flow:
 
-## Phase 1 - Strategy
+### Phase 1 - Strategy
 
-### Address the why of the business
+#### Address the why of the business
 **Intent:** Establish a shared understanding of why the system exists and what success means.
 
 **Methods:**
 - Wardley Mapping strategy cycle (purpose, users, needs)
 - Conversations with key business and market stakeholders
 
-## Phase 2 - Discovery
+### Phase 2 - Discovery
 
-### Examine the teams of today
+#### Examine the teams of today
 **Intent:** Make current responsibilities, handoffs, and dependencies visible.
 
 **Methods:**
 - Analysis of existing functional silo teams.
 - Observation of handover mechanisms.
 
----
 
-### Assess the current flow of change
+#### Assess the current flow of change
 **Intent:** Identify what blocks or slows down change and feedback.
 
 **Methods:**
 - Value Stream Mapping
 
----
 
-### Visualise the current landscape
+#### Visualise the current landscape
 **Intent:** Create a shared picture of users, value, and dependencies.
 
 **Methods:**
 - Wardley Mapping (current state landscape): User Need Mapping, Evolution mapping.
 
----
 
-### Identify suitable streams of change
+#### Identify suitable streams of change
 **Intent:** Decide where speed and learning matter most.
 
 **Methods:**
 - Using user needs on the Wardley Map as candidates for streams of change
 
----
 
-### Discover the problem domain
+#### Discover the problem domain
 **Intent:** Build shared understanding of the domain and identify what is core.
 
 **Methods:**
@@ -69,19 +65,17 @@ It's largely based on chapter 9 of Architecture for Flow:
 
 ---
 
+### Phase 3 – Design
 
-## Phase 3 – Design
-
-### Modularise the solution space (design bounded contexts)
+#### Modularise the solution space (design bounded contexts)
 **Intent:** Create coherent boundaries so change is local, not global.
 
 **Methods:**
 - Big Picture EventStorming
 - Domain Storytelling (as a complementary approach)
 
----
 
-### Design context maps
+#### Design context maps
 **Intent:** Make relationships between boundaries explicit and deliberate.
 
 **Methods:**
@@ -89,7 +83,7 @@ It's largely based on chapter 9 of Architecture for Flow:
 
 ---
 
-### Visualise the future landscape
+#### Visualise the future landscape
 **Intent:** Align architectural choices with strategy and investment.
 
 **Methods:**
@@ -99,18 +93,17 @@ It's largely based on chapter 9 of Architecture for Flow:
 
 ---
 
-## Phase 4 – Enable flow for teams
+### Phase 4 – Enable flow for teams
 
-### Define suitable team ownership boundaries
+#### Define suitable team ownership boundaries
 **Intent:** Align responsibility with architectural boundaries.
 
 **Methods:**
 - Using bounded contexts as fracture planes
 - Stream-aligned team concept from Team Topologies
 
----
 
-### Optimise team cognitive load
+#### Optimise team cognitive load
 **Intent:** Ensure teams can understand and operate their scope.
 
 **Methods:**
@@ -118,9 +111,8 @@ It's largely based on chapter 9 of Architecture for Flow:
 - Wardley Map position heuristics
 - Cynefin domain classification
 
----
 
-### Identify platform services supporting flow of change
+#### Identify platform services supporting flow of change
 **Intent:** Remove handoffs by enabling self-service.
 
 **Methods:**
@@ -128,9 +120,8 @@ It's largely based on chapter 9 of Architecture for Flow:
 - Identification of X-as-a-Service platform candidates
 - Thinnest Viable Platform approach
 
----
 
-### Apply team types and interaction modes
+#### Apply team types and interaction modes
 **Intent:** Shape collaboration to minimise coordination overhead.
 
 **Methods:**
@@ -139,11 +130,9 @@ It's largely based on chapter 9 of Architecture for Flow:
 
 ---
 
-### Identify capability gaps and enable dynamic reteaming
+#### Identify capability gaps and enable dynamic reteaming
 **Intent:** Make missing system and skill capabilities explicit and support adaptation.
 
 **Methods:**
 - Capability gap identification
 - Dynamic Reteaming
-
-- 
